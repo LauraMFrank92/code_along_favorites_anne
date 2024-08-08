@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Quicksand";
+}
+
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  padding: 2em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 5vw;
+    margin: 0.5em;
+  }
+} */
